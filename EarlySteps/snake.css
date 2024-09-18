@@ -57,17 +57,7 @@ html, body{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.verify{
-  margin-top: 8px;
-  height: 30px;
-  width: auto;
-  padding: 5px;
-  margin-left:200px ;
-  background-color: green;
-  mix-blend-mode: color-burn;
-  border: 1px solid black;
-  border-radius: 5px;
-}
+
 #title p{
   font-size: 20px;
   font-weight: 800;
@@ -125,6 +115,12 @@ html, body{
    margin-left: 20px;
    margin-right: 20px;
 } 
+.StepR b {
+  color: red;
+}
+.Step b {
+  color: red;
+}
 .Step img {
   height: 40vh;
   width: 40vh;
@@ -261,7 +257,7 @@ html, body{
   border-radius: 20px;
 }
 
-
+/* Mobile  */
 
 @media only screen and (min-width: 200px) and (max-width: 480px){
   #page1{
@@ -302,17 +298,6 @@ html, body{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.verify{
-  margin-top: 5px;
-  height: 30px;
-  width: auto;
-  padding: 5px;
-  margin-left:240px ;
-  background-color: green;
-  mix-blend-mode: color-burn;
-  border: 1px solid black;
-  border-radius: 5px;
-}
 #title p{
   font-size: 20px;
   font-weight: 800;
@@ -343,6 +328,12 @@ html, body{
    align-items: center;
   margin: 10px;
 } 
+.StepR b {
+  color: red;
+}
+.Step b {
+  color: red;
+}
 .Step img {
 height: 20vh;
 width: 20vh;
@@ -413,17 +404,6 @@ margin-left: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.verify{
-  margin-top: 5px;
-  height: 30px;
-  width: auto;
-  padding: 5px;
-  margin-left:200px ;
-  background-color: green;
-  mix-blend-mode: color-burn;
-  border: 1px solid black;
-  border-radius: 5px;
-}
 #title p{
   font-size: 20px;
   font-weight: 800;
@@ -454,6 +434,12 @@ margin-left: 10px;
    align-items: center;
   margin: 10px;
 } 
+.StepR b {
+  color: red;
+}
+.Step b {
+  color: red;
+}
 .Step img {
 height: 20vh;
 width: 20vh;
@@ -525,17 +511,7 @@ margin-left: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.verify{
-  margin-top: 5px;
-  height: 30px;
-  width: auto;
-  padding: 5px;
-  margin-left:560px ;
-  background-color: green;
-  mix-blend-mode: color-burn;
-  border: 1px solid black;
-  border-radius: 5px;
-}
+
 #title p{
   font-size: 40px;
   font-weight: 800;
@@ -571,6 +547,12 @@ margin-left: 10px;
    align-items: center;
   margin: 10px;
 } 
+.StepR b {
+  color: red;
+}
+.Step b {
+  color: red;
+}
 .Step img {
 height: 20vh;
 width: 20vh;
@@ -627,30 +609,19 @@ margin-left: 10px;
     text-align: center;
 }
 #image-verified {
-  height: 40vh;
+  height: 60vh;
   width: 100%;
 }
   
 #image-verified img{
-    height: 40vh;
-    width: 80vh;
+    height: 60vh;
+    width: 150vh;
     margin: 0 auto;
     border: 1px solid black;
     border-radius: 5px;
     object-fit: cover;
     margin-top: 0px;
     margin-bottom: 0px;
-}
-.verify{
-  margin-top: 5px;
-  height: 30px;
-  width: auto;
-  padding: 5px;
-  margin-left:490px ;
-  background-color: green;
-  mix-blend-mode: color-burn;
-  border: 1px solid black;
-  border-radius: 5px;
 }
 #title p{
   font-size: 30px;
@@ -709,6 +680,12 @@ margin-left: 10px;
    margin-left: 20px;
    margin-right: 20px;
 } 
+.StepR b {
+  color: red;
+}
+.Step b {
+  color: red;
+}
 .Step img {
   height: 40vh;
   width: 40vh;
@@ -752,7 +729,7 @@ margin-left: 10px;
 
 }
 
-
+/* for ipad pro */
 
 /* Desktop (min-width: 1024px) */
 @media only screen and (min-width: 1024px) and (min-height: 1366px){
@@ -795,17 +772,7 @@ margin-left: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.verify{
-  margin-top: 5px;
-  height: 30px;
-  width: auto;
-  padding: 5px;
-  margin-left:730px ;
-  background-color: green;
-  mix-blend-mode: color-burn;
-  border: 1px solid black;
-  border-radius: 5px;
-}
+
 #title p{
   font-size: 30px;
   font-weight: 700;
@@ -863,6 +830,12 @@ margin-left: 10px;
    margin-left: 20px;
    margin-right: 20px;
 } 
+.StepR b {
+  color: red;
+}
+.Step b {
+  color: red;
+}
 .Step img {
   height: 20vh;
   width: 20vh;
@@ -908,110 +881,3 @@ margin-left: 10px;
 }
 
 
-
-
-
-
-
-@media only screen and (min-height:360) and (min-width:740){
-  #page1{
-    height: 100%;
-    width: 100%;
-    background-color: #ADD8E6;
-    position: relative;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    overflow: none;
-    object-fit: cover;
-    
-  }
-  #top{
-    max-height: 10vw;
-    width: 100%;
-    position: relative;
-    
-}
-#top h1{
-  height: 10vh;
-    font-size: 100px;
-    font-weight: 900;
-    text-align: center;
-    width: 100%; 
-    align-self: center;
-   position: relative;
-}
-#title{
-  margin-top: 10px;
-    text-align: center;
-}
-#title img{
-    height: 30vw;
-    width: 60vw;
-    margin-top: 90px;
-    border: 1px solid black;
-    border-radius: 5px;
-    object-fit: cover;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    display: none;
-}
-#title p{
-  font-size: 10px;
-  font-weight: 800;
-  margin: 20px;
-  line-height: 60px;
-  text-align: justify;
-  padding-top: 20px;
-  position: relative;
-}
-#title h3{
-  font-size: 50px;
-  font-weight: 700;
-  margin-top: 20px;
-  padding-top: 30px;
-  
-}
-#container{
-  margin-top: 0px;
-}
-.Step{
-  height: 5%;
-  width: 100%;
-  display: flex;
-   align-items: center;
-  margin: 10px;
-} 
-.StepR{
-  height: 5%;
-  width: 100%;
-  display: flex;
-   align-items: center;
-  margin: 10px;
-} 
-.Step img {
-height: 20vh;
-width: 20vh;
-margin: 10px;
-border: 1px solid black;
-border-radius: 50%;;
-object-fit: fill;
-}
-.StepR img {
-  height: 20vh;
-  width: 20vh;
-  margin-left: 10px;
-  border: 1px solid black;
-  border-radius: 50%;
-  object-fit: fill;
-}
-.Step p {
-margin-left: 25px;
-font-size: 30px;
-font-weight: 500;
-}
-.StepR p {
-margin-left: 10px;
-  font-size: 30px;
-  font-weight: 500;
-}
-}  
