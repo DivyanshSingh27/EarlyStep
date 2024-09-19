@@ -83,7 +83,7 @@ nav{
     display: flex;
     align-items: center;
     margin: 0 auto;
-    /* padding: 17vw; */
+    gap: 1.2vw;
 }
 .search-input {
     width: 100%;
@@ -92,7 +92,7 @@ nav{
     border-radius: 50px;
     font-size: 18px;
     justify-content: space-between;
-    gap: 10vw;
+  
 }
 .search-button {
     border: none;
@@ -102,6 +102,25 @@ nav{
     background-color:#359381;
     justify-content: space-between;
 }
+
+#mobnav{
+  height: 20vh;
+  /* padding: 2vw 2vw; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 100%;
+}
+
+#ul{
+  display: flex;
+  align-items: center;
+  gap: 52vw;
+}
+
+
 
 
 /* ParallaxEffect---  */
@@ -176,6 +195,7 @@ nav{
     width: 100%;
     background-color: #003329;
  }
+
  #OthersSec{
     width: 100%;
     padding-bottom: 50px;
@@ -305,6 +325,9 @@ nav{
     nav {
       margin-bottom: 50px;
       max-height: 5vh;
+    }
+    #menubar{
+      display: none;
     }
     #page1 {
       height: 50vw;

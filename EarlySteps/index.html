@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EarlyStep</title>
-    <link
-rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menubar.css">
+    
 </head>
 
 <body>
@@ -20,11 +20,43 @@ rel="stylesheet"
                 <h4> <a href="#">Contact</a></h4>
                 <h4><a href="#">Services</a></h4></h4>
                 <div class="search-container">
-                    <input type="text" class="search-input" placeholder="Search...">
+                    <input type="text" class="searchinput" placeholder="Search...">
                     <button class="search-button">Search</button>
                 </div> 
             </div>     
         </nav>
+
+
+        <!-- mobile navbar -->
+
+        <div id="menubar">
+          <label>
+            <input type="checkbox" >
+              <div class = "toggle">
+                <span class="top_line common"></span>
+                <span class="middle_line common"></span>
+                <span class="bottom_line common"></span>
+              </div>
+              <div class="slide">
+                  <h1>MENU</h1>
+                  <ul>
+                      <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+                      <li><a href="#"><i class="fas fa-phone"></i>Contact</a></li>
+                      <li><a href="#"><i class="fas fa-first-aid"></i>Services</a></li>
+                      <li id="toggleLoginFormBtn"><a href="login.html" ><i class="fas fa-user"></i>Login</a></li>
+                  </ul>
+              </div>
+          </label>
+               
+         
+         </div>
+  
+    
+       
+
+
+
+
     </header>
 
     <div id="page1">
