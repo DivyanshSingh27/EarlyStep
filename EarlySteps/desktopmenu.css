@@ -7,7 +7,7 @@
   font-family: 'Poppins',sans-serif;
 }
 
-#menubar{
+#desktop-menubar{
     background-color: black;
 }
 
@@ -56,7 +56,7 @@ ul li a i{
   width: 40px;
   text-align: center;
 }
-#menubar input{
+#desktop-menubar input{
   display: none;
   visibility: hidden;
 }
@@ -72,54 +72,55 @@ ul li a i{
 
 }
 
-.toggle .common{
+#desktop-menubar .toggle .common{
     position: absolute;
     height: 2px;
     width: 20px;
     background-color: black;
     border-radius: 50px;
     transition: 0.3s ease;
+    margin-right: 10px;
 }
 
-.toggle .top_line{
-  top: 30%;
+#desktop-menubar .toggle .top_line{
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.toggle .middle_line{
-  top: 50%;
+#desktop-menubar .toggle .middle_line{
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.toggle .bottom_line{
-  top: 70%;
+#desktop-menubar .toggle .bottom_line{
+  top: 95%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-input:checked ~ .toggle .top_line{
+#desktop-menubar input:checked ~ .toggle .top_line{
 left: 2px;
 top: 14px;
 width: 25px;
 transform: rotate(45deg);
 }
 
-input:checked ~ .toggle .bottom_line{
+#desktop-menubar input:checked ~ .toggle .bottom_line{
   left: 2px;
   top: 14px;
   width: 25px;
   transform: rotate(-45deg);
   }
 
-  input:checked ~ .toggle .middle_line{
+  #desktop-menubar  input:checked ~ .toggle .middle_line{
     opacity: 0;
     transform: translateX(20px);
     }
   
-    input:checked ~ .slide{
+    #desktop-menubar  input:checked ~ .slide{
       transform: translateX(0);
       box-shadow: 0 0 15px rgba(0, 0, 0,0.5);
-      
+      margin-right: 10px;
     } 
 
