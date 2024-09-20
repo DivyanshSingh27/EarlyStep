@@ -92,7 +92,6 @@ nav{
     border-radius: 50px;
     font-size: 18px;
     justify-content: space-between;
-  
 }
 .search-button {
     border: none;
@@ -180,8 +179,13 @@ nav{
   .swiper-slide img {
     display: block;
     width: 100%;
+    z-index: -1;
   }
-  
+  .verify-icon{
+    position: absolute;
+    left: .5em;
+    top: .5em;
+  }
   .swiper-slide h1 {
     display: block;
     text-align: center;
@@ -359,6 +363,9 @@ nav{
       margin-bottom: 0;
       max-height: 10vh;
       
+    }
+    #menubar{
+      display: none;
     }
     #page1 {
       height: 100vh;

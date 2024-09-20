@@ -17,7 +17,7 @@
   width: 20vh;
   position: absolute;
   /* backface-visibility: hidden; */
-  background-color: #ced4da;
+  background-color: #003329;
   transition: 0.5s ease;
   transform: translateX(-250px);
  padding-bottom: 13px;
@@ -36,11 +36,12 @@ h1{
 
 ul li{
    list-style: none;
+   padding-top: 10px;
 }
 
 ul li a{
   text-decoration: none;
-  color: #023e8a;
+  color: #fff;
   font-weight: 500;
   padding: 5px 0;
   display: block;
